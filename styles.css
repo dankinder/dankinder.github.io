@@ -1,0 +1,68 @@
+#titleVideo {
+  object-fit: cover;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  overflow: hidden;
+  opacity: 0.4;
+}
+
+.question-content {
+  padding: 1.25rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1561502185-19e305e55207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-image: url("https://images.unsplash.com/photo-1561502185-19e305e55207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: 2000px 1500px;
+  background-position: center top -400px;
+  /* background-image: url("marc-olivier-jodoin-TStNU7H4UEE-unsplash.jpg"); */
+  /* background-image: url("Miracles-splash.png"); */
+  /* background: rgba(250, 250, 250, 0.9); */
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
